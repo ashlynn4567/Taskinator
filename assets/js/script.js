@@ -1,9 +1,11 @@
+var taskIdCounter = 0;
+
 // find objects within the document and select them. save them as variables to use later
 var formEl = document.querySelector("#task-form");
 var tasksToDoEl = document.querySelector("#tasks-to-do");
 
 
-// function that will create a task in "Tasks To Do"
+// function that will create an object (task), and send it to createTaskEl
 var taskFormHandler = function(event) {
     event.preventDefault();
     
@@ -30,10 +32,15 @@ var taskFormHandler = function(event) {
     createTaskEl(taskDataObj);
 };
 
+
+// recieves objects from taskFormHandler and dynamically creates elements 
 var createTaskEl = function (taskDataObj) {
     // create list item
     var listItemEl = document.createElement("li");
     listItemEl.className = "task-item";
+
+    // add task id as a custom attribute
+    listItemEl.setAttribute("data-task-id", taskIdCounter);
 
     // create div to hold task info and add to list item
     var taskInfoEl = document.createElement("div");
@@ -45,6 +52,9 @@ var createTaskEl = function (taskDataObj) {
 
     // add entire list item to list
     tasksToDoEl.appendChild(listItemEl);
+
+    // increase task counter for next unique id
+    taskIdCounter++;
 };
 
 // on a button click ("Add Task"), callback taskFormHandler (create a task)
