@@ -7,6 +7,7 @@ var tasksToDoEl = document.querySelector("#tasks-to-do");
 var taskFormHandler = function(event) {
     event.preventDefault();
     
+    // search for task name and type inputs within the DOM
     var taskNameInput = document.querySelector("input[name='task-name']").value;
     var taskTypeInput = document.querySelector("select[name='task-type']").value;
 
