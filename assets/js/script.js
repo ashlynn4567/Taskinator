@@ -7,7 +7,7 @@ var tasksToDoEl = document.querySelector("#tasks-to-do");
 var taskFormHandler = function(event) {
     event.preventDefault();
     
-    // search for task name and type inputs within the DOM
+    // search for task name and task type inputs within the DOM
     var taskNameInput = document.querySelector("input[name='task-name']").value;
     var taskTypeInput = document.querySelector("select[name='task-type']").value;
 
@@ -40,7 +40,7 @@ var createTaskEl = function (taskDataObj) {
     // give it a class name 
     taskInfoEl.className = "task-info";
     // add HTML content to div
-    taskInfoEl.innerHTML = "<h3 class='task-name'>" + taskNameInput + "</h3><span class='task-type'>" + taskTypeInput + "</span>";
+    taskInfoEl.innerHTML = "<h3 class='task-name'>" + taskDataObj.name + "</h3><span class='task-type'>" + taskDataObj.type + "</span>";
     listItemEl.appendChild(taskInfoEl);
 
     // add entire list item to list
