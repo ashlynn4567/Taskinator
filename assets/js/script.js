@@ -1,8 +1,10 @@
+// variable to assign a unique id to each task created by the user
 var taskIdCounter = 0;
 
 // find objects within the document and select them. save them as variables to use later
 var formEl = document.querySelector("#task-form");
 var tasksToDoEl = document.querySelector("#tasks-to-do");
+var pageContentEl = document.querySelector("#page-content");
 
 
 // function that will create an object (task), and send it to createTaskEl
@@ -108,5 +110,23 @@ var createTaskActions = function(taskId) {
     return actionContainerEl;
 };
 
+// function that ????
+var taskButtonHandler = function(event) {
+    console.log(event.target);
+
+    if (event.target.matches(".delete-btn")) {
+        // get the element's task id
+        var taskId = event.target.getAttribute("data-task-id");
+        deleteTask(taskId);
+    };
+};
+
+// function to delete a task
+var deleteTask = function(taskId) {
+    var taskSelected = document.querySelector(".task-item[data-task-id='" + taskId + "']");
+    taskSelected.remove();
+};
+
 // on a button click ("Add Task"), callback taskFormHandler (create a task)
 formEl.addEventListener("submit", taskFormHandler);
+pageContentEl.addEventListener("click", taskButtonHandler);
