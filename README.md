@@ -11,8 +11,8 @@ This project allowed me the experience of using Web API's (specifically DOM and 
 This is how the main page appears to users. The page is responsive, adapting to multiple screen sizes.
 
 <p align="center">
-<img src="./assets/images/desktop-taskinator.jpg"/>
-<img src="./assets/images/mobile-taskinator.jpg">
+<img src="./assets/images/desktop-taskinator.JPG"/>
+<img src="./assets/images/mobile-taskinator.JPG">
 </p>
 
 The user can use this application to track their tasks. The user can use the input box at the top of the page to type a task name, select a task type, and save it to their dashboard. The saved task automatically goes into the "Tasks to Do" column. There are also interactive buttons that dynamically appear on the task itself. The user can use these buttons to edit/update their tasks, or delete them from view.
