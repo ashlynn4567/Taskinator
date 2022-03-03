@@ -2,9 +2,11 @@
 
 ## Welcome to Taskinator.
 
-This project allowed me the experience of using Web API's (specifically DOM and localStorage) to add interactivity and dynamic behavior to a web application. This application is designed to allow a user to interactively update and track a to-do list of items within their browser. Tasks dynamically appear on the page as a user creates them. They remain persistent even after refreshing the page due to added localStorage capabilities.
+This project allowed me the experience of using Web API's (specifically DOM and localStorage) to add dynamic behavior to a web application. This application is designed to allow a user to interactively update and track a to-do list of items within their browser. Tasks dynamically appear on the page as a user creates them. They remain persistent even after refreshing the page due to added localStorage capabilities.
 
-[add challenges later]
+Through the course of building this app, I used the DOM to target static HTML elements with a click event listener. After the click event occurred, the functions within my code took over to create new HTML elements that would appear after a user created a new task. These functions also added interactive buttons to each task so that the user could experience editing or deleting their tasks after they had already been made. I constantly refactored the code as I went, creating new functions to make sure that each function had one unique task to complete. I used the DRY method as well, consolidating repetitive code wherever possible. 
+
+This application also uses the localStorage API to store a user's tasks within their session. This way, even after refreshing the page, the tasks remain. This allows a user to essentially save their work and come back to it later - which is perfect for an applicaiton where a user may need to intermittently use it as they finish items on their to-do lists. 
 
 ## Usage and Features
 
