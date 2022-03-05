@@ -1,6 +1,6 @@
 # Taskinator
 
-## Welcome to Taskinator.
+### Welcome to Taskinator.
 
 This project allowed me the experience of using Web API's (specifically DOM and localStorage) to add dynamic behavior to a web application. This application is designed to allow a user to interactively update and track a to-do list of items within their browser. Tasks dynamically appear on the page as a user creates them. They remain persistent even after refreshing the page due to added localStorage capabilities.
 
@@ -29,9 +29,9 @@ The tasks each user creates is saved in their local storage. This way, even if t
 
 <p align="center"><img src="./assets/images/taskinator-localstorage-gif.gif"/></p>
 
-## Try it for yourself!
+## Deployed Site
 
-<a href="https://ashlynn4567.github.io/Taskinator-Application/">Click here to track your tasks!<a>
+Try it for yourself - <a href="https://ashlynn4567.github.io/Taskinator-Application/">Click here to track your tasks!<a>
 
 ## Suggestion Box
 
