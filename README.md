@@ -1,39 +1,57 @@
 # Taskinator
 
-### Welcome to Taskinator.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project allowed me the experience of using Web API's (specifically DOM and localStorage) to add dynamic behavior to a web application. This application is designed to allow a user to interactively update and track a to-do list of items within their browser. Tasks dynamically appear on the page as a user creates them. They remain persistent even after refreshing the page due to added localStorage capabilities.
+## Table-of-Contents
 
-Through the course of building this app, I used the DOM to target static HTML elements with a click event listener. After the click event occurred, the functions within my code took over to create new HTML elements that would appear after a user created a new task. These functions also added interactive buttons to each task so that the user could experience editing or deleting their tasks after they had already been made. I constantly refactored the code as I went, creating new functions to make sure that each function had one unique task to complete. I used the DRY method as well, consolidating repetitive code wherever possible. 
+- [Description](#description)
+- [Deployed Site](#deployed-site)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Future Development](#future-development)
+- [Credits](#credits)
 
-This application also uses the localStorage API to store a user's tasks within their session. This way, even after refreshing the page, the tasks remain. This allows a user to essentially save their work and come back to it later - which is perfect for an applicaiton where a user may need to intermittently use it as they finish items on their to-do lists. 
+## Description
 
-## Usage and Features
+This is my third project for the University of Oregon Coding Bootcamp 2022. In this project, I build a task-tracker application named Taskinator that utilizes a Kanban Board user interface. This application utilizes JavaScript, local storage APIs, and DOM interfaces that allow users to interactively organize their personal to-do list. Tasks dynamically appear on the page as a user creates them. They remain persistent even after refreshing the page due to added localStorage capabilities.
+
+## Deployed Site
+
+Follow [this link](https://ashlynn4567.github.io/Taskinator/) to view and use our site!
+
+## Features
 
 This is how the main page appears to users. The page is responsive, adapting to multiple screen sizes.
 
 <p align="center">
-<img src="./assets/images/desktop-taskinator.JPG"/>
-<img src="./assets/images/mobile-taskinator.JPG">
+<img alt="A screenshot of the home page of Taskinator. There is a freeform text field near the top of the page, with a dropdown task-type list next to it. There is a submit button to the right of these two entry fields. In the main portion of the page, there are three columns - 'Tasks To Do', 'Tasks In Progress' and Tasks Completed'. These sections are where tasks are populated once the user creates them." src="./assets/images/taskinator-screenshot.jpg"/>
 </p>
 
 The user can use this application to track their tasks. The user can use the input box at the top of the page to type a task name, select a task type, and save it to their dashboard. The saved task automatically goes into the "Tasks to Do" column. There are also interactive buttons that dynamically appear on the task itself. The user can use these buttons to edit/update their tasks, or delete them from view.
 
-<p align="center"><img src="./assets/images/taskinator-save-edit-delete-gif.gif"/></p>
+<p align="center">
+<img alt="A gif demonstrating a user adding a task to their kanban-style to-do list. Users can enter freeform text into a box and select a category for each task. By default, tasks appear in the 'Tasks To Do' section." src="./assets/images/taskinator-demo-1.gif"/>
+</p>
 
 If the user wishes to change the status of their task, they can use the dropdown list interactively to move each task to whatever column they want.
 
-<p align="center"><img src="./assets/images/taskinator-switch-columns-gif.gif"/></p>
+<p align="center">
+<img alt="A gif demonstrating a user selecting different task types. When a different column type is assigned to a task, that task automatically moves to the newly assigned column." src="./assets/images/taskinator-demo-2.gif"/>
+</p>
 
 The tasks each user creates is saved in their local storage. This way, even if the user refreshes the page or returns to it at a later date, their tasks are saved.
 
-<p align="center"><img src="./assets/images/taskinator-localstorage-gif.gif"/></p>
+<p align="center">
+<img alt="A gif demonstrating that even after refreshing the page, tasks stay persistently on the page due to added localStorage capabilities." src="./assets/images/taskinator-demo-3.gif"/>
+</p>
 
-## Deployed Site
+## Technologies
 
-Try it for yourself - <a href="https://ashlynn4567.github.io/Taskinator-Application/">Click here to track your tasks!<a>
+- HTML
+- CSS
+- JavaScript
 
-## Suggestion Box
+## Future Development
 
 In the future, I would like to add the following improvements:
 
@@ -42,12 +60,16 @@ In the future, I would like to add the following improvements:
 - Add ability to change the color theme of the page.
 - Add ability to record dates or times to assign tasks to specific days. The user should only be able to see their tasks for the current day. The user should also have the ability to switch their view to a daily, weekly, or monthly task list. Tasks should only appear on their assigned time frame (i.e. April 14th task appears on april 14 in real time).
 
-I'm a big believer in always refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach me at the following links.
+I'm always interested in refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach our development team at the links below.
 
-- <a href="mailto:ashlynn4567@gmail.com">Email<a>
-- <a href="https://github.com/ashlynn4567">GitHub<a>
-- <a href="https://www.linkedin.com/in/ashley-lynn-smith/">LinkedIn<a>
+- <a href="mailto:ashlynn4567@gmail.com">Email</a>
+- <a href="https://github.com/ashlynn4567">GitHub</a>
+- <a href="www.linkedin.com/in/Ashley-Lynn-Smith">LinkedIn</a>
 
 ## Credits
 
 This project was built with the help of the University of Oregon's Coding Boot Camp.
+
+## Licensing
+
+The application is covered under the following license: [MIT](https://opensource.org/licenses/MIT)
