@@ -17,7 +17,7 @@ This is my third project for the University of Oregon Coding Bootcamp 2022. In t
 
 ## Deployed Site
 
-Follow [this link](https://ashlynn4567.github.io/Taskinator/) to view and use our site!
+Follow [this link](https://ashlynn4567.github.io/Taskinator/) to view and use my site!
 
 ## Features
 
@@ -60,7 +60,7 @@ In the future, I would like to add the following improvements:
 - Add ability to change the color theme of the page.
 - Add ability to record dates or times to assign tasks to specific days. The user should only be able to see their tasks for the current day. The user should also have the ability to switch their view to a daily, weekly, or monthly task list. Tasks should only appear on their assigned time frame (i.e. April 14th task appears on april 14 in real time).
 
-I'm always interested in refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach our development team at the links below.
+I'm always interested in refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach me at the links below.
 
 - <a href="mailto:ashlynn4567@gmail.com">Email</a>
 - <a href="https://github.com/ashlynn4567">GitHub</a>
