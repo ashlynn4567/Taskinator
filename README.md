@@ -13,7 +13,7 @@
 
 ## Description
 
-This is my third project for the University of Oregon Coding Bootcamp 2022. In this project, I build a task-tracker application named Taskinator that utilizes a Kanban Board user interface. This application utilizes JavaScript, local storage APIs, and DOM interfaces that allow users to interactively organize their personal to-do list. Tasks dynamically appear on the page as a user creates them. They remain persistent even after refreshing the page due to added localStorage capabilities.
+Taskinator is a task-tracker application that utilizes a Kanban Board user interface. This application utilizes JavaScript, local storage APIs, and DOM interfaces that allow users to interactively organize their personal to-do list. Tasks dynamically appear on the page as a user creates them. They remain persistent even after refreshing the page due to added localStorage capabilities.
 
 ## Deployed Site
 
